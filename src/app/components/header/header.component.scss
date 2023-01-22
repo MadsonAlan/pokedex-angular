@@ -1,0 +1,125 @@
+.container{
+  height: 80vh;
+  .headerSideUp{
+    position: relative;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    // background-color: var(--red);
+    --tw-bg-opacity: 1;
+    background-color: rgb(194 0 1 / var(--tw-bg-opacity));
+    color: var(--white);
+
+    .headerSideUpOverlay{
+      height: 55vh;
+      width: 100%;
+      background: radial-gradient(92.5% 92.5% at 55.1% 110.7%,#AB0001 0%,rgba(171,0,1,0) 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+      img{
+        margin-bottom: 3rem;
+        width: 10rem;
+      }
+
+      .pokedexTittle{
+        padding: 0.5rem;
+        width: 7rem;
+        color: var(--red);
+        border-radius: 30px;
+        background: var(--white);
+        font-weight: 800;
+      }
+      h1{
+        font-weight: 700;
+        font-size: 4rem;
+        margin: 0;
+      }
+      p{
+        font-size: 1rem;
+      }
+    }
+  }
+
+
+    
+
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+
+
+
+
+
+  .headerSideDown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    .headerSideDownOverlay{
+    display: flex;
+    justify-content: space-between;
+    height: 45vh;
+    width: 100%;
+    max-width: 1080px;
+    --tw-bg-opacity: 1;
+    h3{
+      font-size: 2rem;
+      font-weight: 700;
+      margin-left: 5rem;
+      max-width: 265px;
+    }
+
+    img{
+      position: relative;
+      top: -8rem;
+      display: flex;
+      justify-content: center;
+      animation: float 6s ease-in-out infinite;
+      z-index: 999!important;
+      // width: 80%;
+    }
+
+    .searchContainer{
+      margin-top: 2rem;
+      margin-right: 5rem;
+      background: #fff;
+      height: 2rem;
+      border-radius: 30px;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: 0.8s;
+      box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+                  -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+        inset -4px -4px 6px 0 rgba(255,255,255,.2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+    }
+      
+    .searchContainer .searchInput{
+        background: transparent;
+        border: none;
+        outline:none;
+        max-width: 18rem;
+        font-weight: 500;
+        font-size: 16px;
+        transition: 0.8s;
+    }
+    
+  }
+}
+  }

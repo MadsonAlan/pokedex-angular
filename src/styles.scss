@@ -2,6 +2,8 @@
 :root {
   --white: #FFF;
   --gray: #e5e7eb;
+  --red:#C20001;
+  --blue:#3F5DB3;
   --secondary-gray: #ACB9C1;
   --bg-color: #EFF3F6;
   --text-color: #21242b;
@@ -31,6 +33,7 @@
 body{
   font-family: 'Montserrat', sans-serif;
   background: var(--bg-color);
+  margin: 0;
 }
 
 // colors types pokémon
