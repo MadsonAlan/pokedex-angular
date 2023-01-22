@@ -1,0 +1,16 @@
+<section class="pokemonList">
+  <h1><img src="https://pokemon-api-k926.vercel.app/icon.png" alt="pokeballIco"/> {{pokemonList.length}} Pokémons</h1>
+  <div class="container">
+    <div class="card" *ngFor="let pokemon of pokemonList; let i = index;">
+      <a href={{pokemon.url}}>
+        <div class="circleBackground">
+          <img class="imageCard" title="pokemon image" src={{pokemon.image}} alt={{pokemon.name}}/>
+        </div>
+        <p class="pokemonCode">#{{("0000" + (i+1)).slice(-4)}}</p>
+        <h3 class="title">
+          {{pokemon.name}}
+        </h3>
+      </a>
+    </div>
+  </div>
+</section>

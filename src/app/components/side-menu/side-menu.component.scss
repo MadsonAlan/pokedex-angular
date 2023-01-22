@@ -1,0 +1,13 @@
+.listTypes{
+  display: flex;
+  a{
+    margin-left: 5rem;
+    text-decoration: none;
+    text-align: left;
+    p{
+      color: var(--text-secondary-color);
+      font-weight: 500;
+      filter: opacity(0.7);
+    }
+  }
+}
