@@ -7,7 +7,7 @@ import { PoketypeServiceResponse } from '../models/poketypeService';
   providedIn: 'root'
 })
 export class PoketypeService {
-  apiURL = 'https://pokeapi.co/api/v2/type/';
+  apiURL = 'https://pokeapi.co/api/v2/type?limit=18&offset=0';
 
   httpOptions = {
     Headers: new HttpHeaders({

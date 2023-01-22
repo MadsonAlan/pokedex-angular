@@ -8,7 +8,7 @@ import { PokedexServiceResponse } from '../models/pokedexService';
 })
 export class PokedexService {
 
-  apiURL = 'https://pokeapi.co/api/v2/pokemon/';
+  apiURL = 'https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0';
 
   httpOptions = {
     Headers: new HttpHeaders({

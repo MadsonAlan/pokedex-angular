@@ -1,5 +1,8 @@
 <div class="listTypes" *ngFor="let pokemonType of pokemonTypeList; let i = index;">
   <a href={{pokemonType.url}}>
+    <div class={{pokemonType.name}}>
+      <img src={{pokemonType.image}} alt="image type pokemon">
+    </div>
     <p class="namePokemonType">{{pokemonType.name}}</p>
   </a>
 </div>

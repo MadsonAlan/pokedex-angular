@@ -1,5 +1,5 @@
 .pokemonList{
-  border-left: 1px solid var(--text-secondary-color);
+  border-left: 1px solid var(--gray);
   padding-left: 2rem;
 
   h1{
@@ -14,7 +14,6 @@
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 0.5rem;
   margin: 1.5rem 0;
 }
 
@@ -26,7 +25,7 @@
   background: var(--white);
   border-radius: 10px;
   margin-top: 2rem;
-  padding: 1rem;
+  padding: 2rem 1rem;
   width: 11rem;
   height: 15rem;
   a{

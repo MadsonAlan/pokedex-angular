@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardComponent } from './components/card/card.component';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    SideMenuComponent
+    SideMenuComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

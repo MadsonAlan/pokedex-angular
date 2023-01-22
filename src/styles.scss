@@ -1,13 +1,116 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  --white: #f8f8f2;
-  --bg-color: #e5e7eb;
+  --white: #FFF;
+  --gray: #e5e7eb;
+  --secondary-gray: #ACB9C1;
+  --bg-color: #EFF3F6;
   --text-color: #21242b;
   --text-secondary-color: #7A7D80;
   --circle-color: #D6EBDC;
+  --normal:#A0A29F;
+  --fighting:#D3425F;
+  --flying:#A1BBEC;
+  --poison:#B763CF;
+  --ground:#DA7C4D;
+  --rock:#C9BB8A;
+  --bug:#92BC2C;
+  --ghost:#5F6DBC;
+  --steel:#5695A3;
+  --fire:#FBA54C;
+  --water:#539DDF;
+  --grass:#5FBD58;
+  --electric:#F2D94E;
+  --psychic:#FA8581;
+  --ice:#75D0C1;
+  --dragon:#0C69C8;
+  --dark:#595761;
+  --fairy:#EE90E6;
+
 }
 
 body{
   font-family: 'Montserrat', sans-serif;
   background: var(--bg-color);
+}
+
+// colors types pokémon
+
+.normal{
+  background: var(--normal);
+}
+
+.fighting{
+  background: var(--fighting);
+}
+
+.flying{
+  background: var(--flying);
+}
+
+.poison{
+  background: var(--poison);
+}
+
+.ground{
+  background: var(--ground);
+}
+
+.rock{
+  background: var(--rock);
+}
+
+.bug{
+  background: var(--bug);
+}
+
+.ghost{
+  background: var(--ghost);
+}
+
+.steel{
+  background: var(--steel);
+}
+
+.fire{
+  background: var(--fire);
+}
+
+.water{
+  background: var(--water);
+}
+
+.grass{
+  background: var(--grass);
+}
+
+.electric{
+  background: var(--electric);
+}
+
+.psychic{
+  background: var(--psychic);
+}
+
+.ice{
+  background: var(--ice);
+}
+
+.dragon{
+  background: var(--dragon);
+}
+
+.dark{
+  background: var(--dark);
+}
+
+.fairy{
+  background: var(--fairy);
+}
+
+.unknown{
+  background: var(--unknown);
+}
+
+.shadow{
+  background: var(--shadow);
 }

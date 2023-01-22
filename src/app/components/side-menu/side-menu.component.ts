@@ -14,6 +14,7 @@ export class SideMenuComponent {
   ngOnInit() {
     this.poketypeService.getPokedex().subscribe(data => {
       data.results.map((result, index) => this.pokemonTypeList.push({
+        image: `https://duiker101.github.io/pokemon-type-svg-icons/icons/${result.name}.svg`,
         name: result.name,
         url: result.url
       }));

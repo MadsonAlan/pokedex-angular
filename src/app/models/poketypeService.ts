@@ -5,8 +5,6 @@ export class PoketypeServiceResponse{
   results!: PoketypeServiceResponseItens[];
 }
 
-export class PoketypeServiceResponseItens{
-  name!: string;
-  url!:string;
+export class PoketypeServiceResponseItens extends PokedexServiceResponseItens{
 }
 
