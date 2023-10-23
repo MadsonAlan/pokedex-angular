@@ -7,4 +7,5 @@ export class PokedexServiceResponseItens{
   name!: string;
   url!:string;
   image!: string;
+  color?: string;
 }

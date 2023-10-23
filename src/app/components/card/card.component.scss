@@ -32,9 +32,11 @@
     text-decoration: none;
     color: var(--text-color);
 
-    .circleBackground{
+    .circleBackground{      
       border-radius: 50%;
-      background: var(--circle-color);
+      img{
+      }
+      // background: var(--circle-color);
     }
 
     p{
